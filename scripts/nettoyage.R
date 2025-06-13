@@ -145,4 +145,21 @@ print(unique(positive_cities$city))
 print("Pays correspondants :")
 print(unique(positive_cities$country_name))
 
-# Filtrage supplémentaire pour ne garder que le villes avec 
+
+
+# Filtrage des villes avec stations de monitoring
+
+# Garder seulement les lignes où monitoring_station_number n'est pas vide
+positive_cities_stations <- positive_cities[!is.na(positive_cities$monitoring_station_number), ]
+
+# Vérification de la nouvelle base
+print(paste("Nombre de lignes après filtrage stations :", nrow(positive_cities_stations)))
+print(paste("Nombre de villes avec stations :", length(unique(positive_cities_stations$city))))
+print(paste("Nombre de pays avec stations :", length(unique(positive_cities_stations$country_name))))
+
+# Affichage final des villes et pays
+print("Villes avec stations de monitoring :")
+print(unique(positive_cities_stations$city))
+
+print("Pays avec stations de monitoring :")
+print(unique(positive_cities_stations$country_name))
