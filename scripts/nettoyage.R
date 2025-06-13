@@ -1,5 +1,20 @@
 
 # ========= PROUVER LES LA FORTE PROPORTION DE VALEUR MANQUANTES PAR REGION ====
+# Initialiser une liste vide pour stocker les résultats
+missing_by_region <- list()
+
+# Boucle sur chaque région
+for (reg in regions) {
+  # Filtrer les données pour la région en cours
+  data_region <- subset(data, region == reg)
+  
+  # Calculer le pourcentage de valeurs manquantes par colonne
+  col_missing <- colSums(is.na(data_region)) / nrow(data_region) * 100
+  
+  # Stocker le résultat dans la liste avec le nom de la région
+  missing_by_region[[reg]] <- col_missing
+}
+
 # accéder aux valeurs manquantes pour la région "Eastern Mediterranean Region"
 missing_by_region[["Eastern Mediterranean Region"]]
 
@@ -17,7 +32,6 @@ missing_by_region[["Region of the Americas"]]
 
 # accéder aux valeurs manquantes pour la région "African Region"
 missing_by_region[["African Region"]]
-
 
 
 # ----- Filtrage du dataset "data" - année 2019 : Les pays avec avec des mesures complètes ----
