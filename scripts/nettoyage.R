@@ -18,8 +18,36 @@ missing_by_region[["Region of the Americas"]]
 # accéder aux valeurs manquantes pour la région "African Region"
 missing_by_region[["African Region"]]
 
-# ====== CORRELATION PAR REGION, année 2019 =====
 
+
+# ----- Filtrage du dataset "data" - année 2019 : Les pays avec avec des mesures complètes ----
+
+# Étape 1: Garder uniquement l'année 2019
+data_2019 <- data[data$measure_year == 2019, ]
+
+# Étape 2: Garder seulement les lignes où PM10, NO2 et PM2.5 ne sont pas vides
+data_2019_complet <- data_2019[!is.na(data_2019$measure_PM10_μg_m3) & 
+                                 !is.na(data_2019$measure_NO2_μg_m3) & 
+                                 !is.na(data_2019$measure_pm25_μg_m3), ]
+
+# Vérification de la nouvelle base
+print(paste("Nombre de lignes pour 2019 avec mesures complètes :", nrow(data_2019_complet)))
+print(paste("Nombre de villes uniques :", length(unique(data_2019_complet$city))))
+print(paste("Nombre de pays uniques :", length(unique(data_2019_complet$country_name))))
+
+# Affichage des villes et pays
+print("Villes avec données complètes en 2019 :")
+print(unique(data_2019_complet$city))
+
+print("Pays avec données complètes en 2019 :")
+print(unique(data_2019_complet$country_name))
+
+print("Régions présentes dans les données 2019 complètes :")
+print(unique(data_2019_complet$region))
+
+
+
+# ====== CORRELATION PAR REGION, année 2019 =====
 
 # Région Afrique
 
