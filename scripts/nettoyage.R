@@ -118,3 +118,31 @@ city_missing <- aggregate(
   data = data_region,
   FUN = function(x) mean(is.na(x)) * 100
 )
+
+
+
+# Filtrage simple en cascade extraire le nouveau dataset "positive_cities"
+
+# Étape 1: Sélectionner les villes de la région Europe
+villes_europe <- data[data$region == "European Region", ]
+
+# Étape 2: Garder seulement les années 2017 à 2019
+villes_europe_periode <- villes_europe[villes_europe$measure_year >= 2017 & 
+                                         villes_europe$measure_year <= 2019, ]
+
+# Étape 3: Garder seulement les lignes où PM10 et NO2 ne sont pas vides
+positive_cities <- villes_europe_periode[!is.na(villes_europe_periode$measure_PM10_μg_m3) & 
+                                           !is.na(villes_europe_periode$measure_NO2_μg_m3), ]
+
+# Vérification de la nouvelle base de données
+print(paste("Nombre de lignes dans positive_cities :", nrow(positive_cities)))
+print(paste("Nombre de villes uniques :", length(unique(positive_cities$city))))
+print(paste("Nombre de pays uniques :", length(unique(positive_cities$country_name))))
+
+# Affichage des villes et pays
+print("Villes sélectionnées :")
+print(unique(positive_cities$city))
+print("Pays correspondants :")
+print(unique(positive_cities$country_name))
+
+# Filtrage supplémentaire pour ne garder que le villes avec 
