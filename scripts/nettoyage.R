@@ -54,6 +54,30 @@ Les **PM₁₀** n’ajoutent pas de décès distincts car leurs effets sont eng
 - **Agence européenne pour l’environnement (EEA)** : [eea.europa.eu/themes/air](https://www.eea.europa.eu/themes/air)  
 
 
+# Informations sur la base de données initiale (Document officiel de l'OMS)
+
+### Base de données qualité de l’air - OMS (2022)
+
+- **Source :** Base de données OMS, avril 2022  
+  [lien](https://www.who.int/data/gho/data/themes/air-pollution/who-air-quality-database)
+
+- **Polluants :** PM10, PM2.5, NO₂ (concentrations annuelles moyennes en μg/m³)
+
+- **Données :**  
+  Rapports officiels, réseaux régionaux (EEA, Clean Air for Asia, AirNow), projets de recherche, articles scientifiques.  
+  Couverture minimale : 50 % de l’année (exceptions possibles).  
+  Période : 2010–2019, quelques données 2020.
+
+- **Méthode :**  
+  Mesures en zones urbaines représentatives, exclusion des "hot spots" industriels sauf intégrés dans les moyennes urbaines.
+
+- **Limites :**  
+  Variabilité des méthodes, couverture inégale, biais saisonnier possible, données surtout urbaines.
+
+- **Valeurs guides OMS :**  
+  PM10 : 15 μg/m³ | PM2.5 : 5 μg/m³ | NO₂ : 10 μg/m³  
+
+
 # ========= PROUVER LES LA FORTE PROPORTION DE VALEUR MANQUANTES PAR REGION ====
 
 regions <- unique(data$region)
