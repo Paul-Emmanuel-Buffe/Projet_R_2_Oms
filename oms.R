@@ -119,4 +119,21 @@ data_clean$type <- gsub("-", "",data_clean$type)
 
 table(data_clean$type)
 
+
+
+type_counts <- data_clean %>%
+  count(type)
+
+type_counts <- type_counts %>%
+  arrange(desc(n)) %>%
+  mutate(type = factor(type, levels = type))
+
+ggplot(type_counts, aes(x = type, y = n)) +
+  geom_bar(stat = "identity", fill = "blue") +
+  labs(title = "Places of monitor", x = "Monitor type", y = "Number of monitors") +
+  scale_y_continuous(breaks = seq(0, max(type_counts$n) + 10, by = 10))+
+  theme_minimal()
+
+text(x = bp, y = counts, labels = counts, pos = 3, cex = 0.8, col = "blue")
+
 View(data_clean)
