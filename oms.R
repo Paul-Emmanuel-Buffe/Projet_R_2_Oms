@@ -4,7 +4,7 @@ library("tidyr")
 library("ggplot2")
 library("Amelia")
 
-data <- read.csv("C:/Users/alexc/Desktop/AAP_2022_city_v9.csv")
+data <- read.csv("C:/Users/alexc/Desktop/laplateforme/projet/annee1/Projet_R_2_Oms/AAP_2022_city_v9.csv")
 
 View(data)
 
@@ -39,53 +39,67 @@ col_missing
 
 missmap(data)
 
-
-# Avec impression des pays:
-# Colonnes à vérifier
-cols_to_check <- c("measure_PM10_μg_m3", "measure_NO2_μg_m3")
-
-# Années à conserver
-years_to_keep <- 2017:2019
-
-# Villes européennes candidates
-european_cities <- unique(data$city[data$region == "European Region" & data$measure_year %in% years_to_keep])
-
-# Initialisation
-valid_cities <- c()
-
-# Boucle sur chaque ville
-for (ville in european_cities) {
-  ville_valide <- TRUE  # on suppose que la ville est valide au départ
-  
-  for (year in years_to_keep) {
-    # Filtrage ville + année
-    data_year_city <- subset(data, region == "European Region" & city == ville & measure_year == year)
-    
-    if (nrow(data_year_city) == 0) {
-      ville_valide <- FALSE  # pas de données cette année = non valide
-      break
-    }
-    
-    # Vérification de la présence de données pour les colonnes d'intérêt
-    if (any(is.na(data_year_city[, cols_to_check]))) {
-      ville_valide <- FALSE
-      break
-    }
-  }
-  
-  # Si la ville est valide pour toutes les années
-  if (ville_valide) {
-    valid_cities <- c(valid_cities, ville)
-  }
-}
+data$monitoring_station_number <- tolower(data$monitoring_station_number)
 
 
-# Obtenir les pays correspondants aux villes valides dans la région "European Region"
-countries_of_valid_cities <- unique(data$country_name[data$city %in% valid_cities & data$region == "European Region"])
+                             
+# European Region
+# 1. Filtrer les données de l'année 2019 et de la région "European Region"
+data_region <- subset(data, region == "European Region" & measure_year == 2019)
 
-# Afficher les villes sélectionnées et les pays correspondants
+# 2. Calculer le pourcentage de valeurs manquantes par ville pour les trois polluants
+city_missing <- aggregate(
+  cbind(measure_PM10_μg_m3, measure_NO2_μg_m3, measure_pm25_μg_m3) ~ city,
+  data = data_region,
+  FUN = function(x) mean(is.na(x)) * 100
+)
+
+
+
+# Filtrage simple en cascade extraire le nouveau dataset "positive_cities"
+
+# Étape 1: Sélectionner les villes de la région Europe
+villes_europe <- data[data$region == "European Region", ]
+
+# Étape 2: Garder seulement les années 2017 à 2019
+villes_europe_periode <- villes_europe[villes_europe$measure_year >= 2017 & 
+                                         villes_europe$measure_year <= 2019, ]
+
+# Étape 3: Garder seulement les lignes où PM10 et NO2 ne sont pas vides
+positive_cities <- villes_europe_periode[!is.na(villes_europe_periode$measure_PM10_μg_m3) & 
+                                           !is.na(villes_europe_periode$measure_NO2_μg_m3), ]
+
+# Vérification de la nouvelle base de données
+print(paste("Nombre de lignes dans positive_cities :", nrow(positive_cities)))
+print(paste("Nombre de villes uniques :", length(unique(positive_cities$city))))
+print(paste("Nombre de pays uniques :", length(unique(positive_cities$country_name))))
+
+# Affichage des villes et pays
 print("Villes sélectionnées :")
-print(valid_cities)
+print(unique(positive_cities$city))
+print("Pays correspondants :")
+print(unique(positive_cities$country_name))
 
-print("Pays représentés :")
-print(countries_of_valid_cities)
+
+
+# Filtrage des villes avec stations de monitoring
+
+# Garder seulement les lignes où monitoring_station_number n'est pas vide
+positive_cities_stations <- positive_cities[!is.na(positive_cities$monitoring_station_number), ]
+
+# Vérification de la nouvelle base
+print(paste("Nombre de lignes après filtrage stations :", nrow(positive_cities_stations)))
+print(paste("Nombre de villes avec stations :", length(unique(positive_cities_stations$city))))
+print(paste("Nombre de pays avec stations :", length(unique(positive_cities_stations$country_name))))
+
+# Affichage final des villes et pays
+print("Villes avec stations de monitoring :")
+print(unique(positive_cities_stations$city))
+
+print("Pays avec stations de monitoring :")
+print(unique(positive_cities_stations$country_name))
+
+data_clean <- positive_cities_stations %>%
+  separate_rows(monitoring_station_number, sep =", ")
+
+View(data_clean)
