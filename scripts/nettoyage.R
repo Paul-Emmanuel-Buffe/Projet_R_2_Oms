@@ -1,5 +1,7 @@
 
 # ========= PROUVER LES LA FORTE PROPORTION DE VALEUR MANQUANTES PAR REGION ====
+
+regions <- unique(data$region)
 # Initialiser une liste vide pour stocker les résultats
 missing_by_region <- list()
 
