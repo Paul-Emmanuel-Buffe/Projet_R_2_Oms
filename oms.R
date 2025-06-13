@@ -3,6 +3,7 @@ library("dplyr")
 library("tidyr")
 library("ggplot2")
 library("Amelia")
+library("stringr")
 
 data <- read.csv("C:/Users/alexc/Desktop/laplateforme/projet/annee1/Projet_R_2_Oms/AAP_2022_city_v9.csv")
 
@@ -99,7 +100,17 @@ print(unique(positive_cities_stations$city))
 print("Pays avec stations de monitoring :")
 print(unique(positive_cities_stations$country_name))
 
+# ajout d'un id au dataset
+positive_cities_stations$id <- seq_len(nrow(positive_cities_stations))
+
+# filtrage de la colonne monitoring en deux colonnes number et type 
 data_clean <- positive_cities_stations %>%
-  separate_rows(monitoring_station_number, sep =", ")
+  separate(monitoring_station_number, 
+           into = c("number", "type"), 
+           sep = " ", 
+           extra = "drop", 
+           fill = "right") %>%
+  filter(!is.na(type)) %>%
+  mutate(number = as.numeric(number))
 
 View(data_clean)
