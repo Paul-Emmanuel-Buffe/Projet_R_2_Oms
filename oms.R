@@ -113,4 +113,10 @@ data_clean <- positive_cities_stations %>%
   filter(!is.na(type)) %>%
   mutate(number = as.numeric(number))
 
+data_clean$type <- gsub(",", "",data_clean$type)
+
+data_clean$type <- gsub("-", "",data_clean$type)
+
+table(data_clean$type)
+
 View(data_clean)
