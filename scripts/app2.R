@@ -6,7 +6,7 @@ library(dplyr)
 library(tidyr)
 library(leaflet)
 
-# 📄 Charger le vrai jeu de données nettoyé
+#  Charger le dataset retenu et nettoyé
 data <- read.csv("positive_cities_standardized.csv", stringsAsFactors = FALSE)
 
 ui <- dashboardPage(
