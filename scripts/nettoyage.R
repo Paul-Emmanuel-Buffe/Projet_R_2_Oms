@@ -1,3 +1,58 @@
+# ----- Analyse métier -----
+
+##  Analyse des sources et des impacts des polluants atmosphériques (PM₂.₅, PM₁.₀, NO₂)
+
+###  Sources d’émission des PM₂.₅ dans le monde (en %)
+
+| Source principale                   | Proportion (%) |
+|-----------------------------------|----------------|
+| Combustion résidentielle (bois, charbon, charbon de bois) | 38 % |
+| Transports (carburants fossiles)  | 18 %           |
+| Industrie (métallurgie, ciment...)| 14 %           |
+| Agriculture (ammoniac, poussières)| 14 %           |
+| Production d'électricité          | 5 %            |
+| Autres (incinération, déchets, etc.) | 11 %        |
+
+---
+
+###  Estimation des PM₁.₀ dans les PM₂.₅
+
+- Les particules **PM₁.₀** (diamètre < 1 µm) représentent environ **70-75 %** des PM₂.₅ selon IQAir et études scientifiques.
+- Cela signifie que **70-75 % des décès liés aux PM₂.₅ sont dus aux PM₁.₀**, car ces particules ultra-fines pénètrent plus profondément dans les poumons et le système sanguin.
+
+---
+
+###  Sources mondiales d’émission de NO₂
+
+| Source principale                  | Proportion (%) |
+|----------------------------------|----------------|
+| Transports (diesel, essence)     | 58 %           |
+| Industrie                        | 22 %           |
+| Production d'énergie             | 14 %           |
+| Résidentiel (chauffage, cuisson) | 6 %            |
+
+---
+
+###  Proportion des décès annuels par type de polluant (sur 5 millions)
+
+| Polluant | Décès estimés | Proportion (%) | Commentaires |
+|----------|----------------|----------------|--------------|
+| PM₂.₅    | ≈ 4 200 000     | 84 %           | Particules les plus fines et les plus nocives. |
+| NO₂      | ≈ 700 000       | 14 %           | Principalement maladies respiratoires. |
+| PM₁₀     | (déjà inclus)   | –              | Les décès liés au PM₁₀ sont déjà comptés dans ceux du PM₂.₅. |
+
+ **Conclusion**  
+Environ **84 % des décès** liés à la pollution de l’air sont causés par les **PM₂.₅**, dont une grande majorité (**70-75 %**) est due aux **PM₁.₀**, et **14 %** par le **NO₂**.  
+Les **PM₁₀** n’ajoutent pas de décès distincts car leurs effets sont englobés dans ceux des PM₂.₅.
+
+### Sources
+
+- **OMS (2021)** – *Air Quality Guidelines* : [who.int/publications/i/item/9789240034228](https://www.who.int/publications/i/item/9789240034228)  
+- **State of Global Air (2023)** – Health Effects Institute : [stateofglobalair.org](https://www.stateofglobalair.org/)  
+- **IQAir World Air Quality Report (2023)** : [iqair.com/world-air-quality-report](https://www.iqair.com/world-air-quality-report)  
+- **Lancet Commission on Pollution and Health (2017)** : [thelancet.com/commissions/pollution-and-health](https://www.thelancet.com/commissions/pollution-and-health)  
+- **Agence européenne pour l’environnement (EEA)** : [eea.europa.eu/themes/air](https://www.eea.europa.eu/themes/air)  
+
 
 # ========= PROUVER LES LA FORTE PROPORTION DE VALEUR MANQUANTES PAR REGION ====
 
