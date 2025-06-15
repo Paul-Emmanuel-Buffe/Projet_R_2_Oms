@@ -183,15 +183,15 @@ server <- function(input, output, session) {
     df <- data %>%
       group_by(measure_year) %>%
       summarise(
-        pm25 = mean(measure_pm25_ug_m3, na.rm = TRUE),
+        no2 = mean(measure_no2_ug_m3, na.rm = TRUE),
         pm10 = mean(measure_pm10_ug_m3, na.rm = TRUE),
         .groups = "drop"
       ) %>%
-      pivot_longer(cols = c("pm25", "pm10"), names_to = "pollutant", values_to = "value")
+      pivot_longer(cols = c("no2", "pm10"), names_to = "pollutant", values_to = "value")
     
     gg <- ggplot(df, aes(x = factor(measure_year), y = value, fill = pollutant)) +
       geom_col(position = "dodge") +
-      scale_fill_manual(values = c("pm25" = "#66c2ff", "pm10" = "#0059b3")) +
+      scale_fill_manual(values = c("no2" = "#66c2ff", "pm10" = "#0059b3")) +
       labs(x = NULL, y = "Concentration moyenne (µg/m³)") +
       theme_minimal(base_size = 14)
     
