@@ -286,3 +286,228 @@ print(unique(positive_cities_stations$city))
 
 print("Pays avec stations de monitoring :")
 print(unique(positive_cities_stations$country_name))
+
+
+
+
+#---- Type de monitiring_station ---- 
+# Visualisation de la proportion de chaque type de zone d'émission dans l'émissions totale
+
+# Chargement des packages nécessaires
+library(dplyr)    # Pour %>%, count(), arrange(), mutate(), filter()
+library(tidyr)    # Pour separate()
+library(ggplot2)  # Pour ggplot()
+library(stringr)  # Pour str_to_title()
+
+# Pour measure_PM10_μg_m3
+
+# Sélectionner les villes de la région Europe
+villes_europe <- data[data$region == "European Region", ]
+
+# Garder seulement les années 2017 à 2019
+villes_europe_periode <- villes_europe[villes_europe$measure_year >= 2017 & 
+                                         villes_europe$measure_year <= 2019, ]
+
+# Garder seulement les lignes où PM10 ne sont pas vides
+positive_cities <- villes_europe_periode[!is.na(villes_europe_periode$measure_PM10_μg_m3), ]
+
+# Vérification de la nouvelle base de données
+print(paste("Nombre de lignes dans positive_cities :", nrow(positive_cities)))
+print(paste("Nombre de villes uniques :", length(unique(positive_cities$city))))
+print(paste("Nombre de pays uniques :", length(unique(positive_cities$country_name))))
+
+# Affichage des villes et pays
+print("Villes sélectionnées :")
+print(unique(positive_cities$city))
+print("Pays correspondants :")
+print(unique(positive_cities$country_name))
+
+# Filtrage des villes avec stations de monitoring
+# Garder seulement les lignes où monitoring_station_number n'est pas vide
+positive_cities_stations <- positive_cities[!is.na(positive_cities$monitoring_station_number), ]
+
+# Vérification de la nouvelle base
+print(paste("Nombre de lignes après filtrage stations :", nrow(positive_cities_stations)))
+print(paste("Nombre de villes avec stations :", length(unique(positive_cities_stations$city))))
+print(paste("Nombre de pays avec stations :", length(unique(positive_cities_stations$country_name))))
+
+# Affichage final des villes et pays
+print("Villes avec stations de monitoring :")
+print(unique(positive_cities_stations$city))
+print("Pays avec stations de monitoring :")
+print(unique(positive_cities_stations$country_name))
+
+# Ajout d'un id au dataset
+positive_cities_stations$id <- seq_len(nrow(positive_cities_stations))
+
+# Filtrage de la colonne monitoring en deux colonnes number et type 
+data_clean <- positive_cities_stations %>%
+  separate(monitoring_station_number, 
+           into = c("number", "type"), 
+           sep = " ", 
+           extra = "drop", 
+           fill = "right") %>%
+  filter(!is.na(type)) %>%
+  mutate(number = as.numeric(number))
+
+# Nettoyage des données type
+data_clean$type <- gsub(",", "", data_clean$type)
+data_clean$type <- gsub("-", "", data_clean$type)
+
+# Standardisation des noms de types (conversion en format titre)
+data_clean$type <- str_to_title(data_clean$type)
+
+# Regroupement de "Rural" et "Ruralregional" en "Rural"
+data_clean$type <- ifelse(data_clean$type == "Ruralregional", "Rural", data_clean$type)
+
+# Vérification après regroupement
+table(data_clean$type)
+
+# Comptage des types
+type_counts <- data_clean %>%
+  count(type)
+
+# Arrangement et création du facteur
+type_counts <- type_counts %>%
+  arrange(desc(n)) %>%
+  mutate(type = factor(type, levels = type))
+
+# Création du graphique
+ggplot(type_counts, aes(x = type, y = n)) +
+  geom_bar(stat = "identity", fill = "blue") +
+  labs(title = "Places of monitor", x = "Monitor type", y = "Number of monitors") +
+  scale_y_continuous(breaks = seq(0, max(type_counts$n) + 10, by = 10)) +
+  theme_minimal()
+
+# Affichage des données nettoyées
+View(data_clean)
+
+
+# Création du graphique en camenbert pour 
+
+# Calcul des moyennes PM10 par type de station
+pm10_moyennes <- data_clean %>%
+  group_by(type) %>%
+  summarise(moyenne_pm10 = mean(measure_PM10_μg_m3, na.rm = TRUE)) %>%
+  mutate(proportion = moyenne_pm10 / sum(moyenne_pm10) * 100)
+
+# Affichage des résultats
+print(pm10_moyennes)
+
+# Création du graphique en camembert
+ggplot(pm10_moyennes, aes(x = "", y = proportion, fill = type)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y", start = 0) +
+  labs(title = "Proportion des moyennes PM10 par type de station",
+       fill = "Type de station") +
+  theme_void() +
+  geom_text(aes(label = paste0(round(proportion, 1), "%")), 
+            position = position_stack(vjust = 0.5))
+
+
+
+
+# Pour measure_NO2_μg_m3
+
+# Sélectionner les villes de la région Europe
+villes_europe <- data[data$region == "European Region", ]
+
+# Garder seulement les années 2017 à 2019
+villes_europe_periode <- villes_europe[villes_europe$measure_year >= 2017 & 
+                                         villes_europe$measure_year <= 2019, ]
+
+# Garder seulement les lignes où NO2 ne sont pas vides
+positive_cities <- villes_europe_periode[!is.na(villes_europe_periode$measure_NO2_μg_m3), ]
+
+# Vérification de la nouvelle base de données
+print(paste("Nombre de lignes dans positive_cities :", nrow(positive_cities)))
+print(paste("Nombre de villes uniques :", length(unique(positive_cities$city))))
+print(paste("Nombre de pays uniques :", length(unique(positive_cities$country_name))))
+
+# Affichage des villes et pays
+print("Villes sélectionnées :")
+print(unique(positive_cities$city))
+print("Pays correspondants :")
+print(unique(positive_cities$country_name))
+
+# Filtrage des villes avec stations de monitoring
+# Garder seulement les lignes où monitoring_station_number n'est pas vide
+positive_cities_stations <- positive_cities[!is.na(positive_cities$monitoring_station_number), ]
+
+# Vérification de la nouvelle base
+print(paste("Nombre de lignes après filtrage stations :", nrow(positive_cities_stations)))
+print(paste("Nombre de villes avec stations :", length(unique(positive_cities_stations$city))))
+print(paste("Nombre de pays avec stations :", length(unique(positive_cities_stations$country_name))))
+
+# Affichage final des villes et pays
+print("Villes avec stations de monitoring :")
+print(unique(positive_cities_stations$city))
+print("Pays avec stations de monitoring :")
+print(unique(positive_cities_stations$country_name))
+
+# Ajout d'un id au dataset
+positive_cities_stations$id <- seq_len(nrow(positive_cities_stations))
+
+# Filtrage de la colonne monitoring en deux colonnes number et type 
+data_clean <- positive_cities_stations %>%
+  separate(monitoring_station_number, 
+           into = c("number", "type"), 
+           sep = " ", 
+           extra = "drop", 
+           fill = "right") %>%
+  filter(!is.na(type)) %>%
+  mutate(number = as.numeric(number))
+
+# Nettoyage des données type
+data_clean$type <- gsub(",", "", data_clean$type)
+data_clean$type <- gsub("-", "", data_clean$type)
+
+# Standardisation des noms de types (conversion en format titre)
+data_clean$type <- str_to_title(data_clean$type)
+
+# Regroupement de "Rural" et "Ruralregional" en "Rural"
+data_clean$type <- ifelse(data_clean$type == "Ruralregional", "Rural", data_clean$type)
+
+# Vérification après regroupement
+table(data_clean$type)
+
+# Comptage des types
+type_counts <- data_clean %>%
+  count(type)
+
+# Arrangement et création du facteur
+type_counts <- type_counts %>%
+  arrange(desc(n)) %>%
+  mutate(type = factor(type, levels = type))
+
+# Création du graphique
+ggplot(type_counts, aes(x = type, y = n)) +
+  geom_bar(stat = "identity", fill = "blue") +
+  labs(title = "Places of monitor", x = "Monitor type", y = "Number of monitors") +
+  scale_y_continuous(breaks = seq(0, max(type_counts$n) + 10, by = 10)) +
+  theme_minimal()
+
+# Affichage des données nettoyées
+View(data_clean)
+
+
+# Création du graphique en camembert pour NO2
+
+# Calcul des moyennes NO2 par type de station
+no2_moyennes <- data_clean %>%
+  group_by(type) %>%
+  summarise(moyenne_no2 = mean(measure_NO2_μg_m3, na.rm = TRUE)) %>%
+  mutate(proportion = moyenne_no2 / sum(moyenne_no2) * 100)
+
+# Affichage des résultats
+print(no2_moyennes)
+
+# Création du graphique en camembert
+ggplot(no2_moyennes, aes(x = "", y = proportion, fill = type)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y", start = 0) +
+  labs(title = "Proportion des moyennes NO2 par type de station",
+       fill = "Type de station") +
+  theme_void() +
+  geom_text(aes(label = paste0(round(proportion, 1), "%")), 
+            position = position_stack(vjust = 0.5))
