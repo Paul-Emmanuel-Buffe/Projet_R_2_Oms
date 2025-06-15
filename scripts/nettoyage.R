@@ -511,3 +511,114 @@ ggplot(no2_moyennes, aes(x = "", y = proportion, fill = type)) +
   theme_void() +
   geom_text(aes(label = paste0(round(proportion, 1), "%")), 
             position = position_stack(vjust = 0.5))
+
+
+
+# Chargement des packages
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+# -----------------------
+# Étape 1 : Filtrage
+# -----------------------
+
+# Supposons que ton dataset s'appelle `data`
+# Étape 1: Sélectionner les villes de la Suisse
+villes_europe <- data[data$country_name == "Switzerland", ]
+
+# Étape 2: Garder seulement les années 2016 à 2020
+villes_europe_periode <- villes_europe[villes_europe$measure_year >= 2016 & 
+                                         villes_europe$measure_year <= 2020, ]
+
+# Étape 3: Garder seulement les lignes où PM10 et NO2 ne sont pas vides
+positive_cities <- villes_europe_periode[!is.na(villes_europe_periode$measurePM10μg_m3) & 
+                                           !is.na(villes_europe_periode$measureNO2μg_m3), ]
+
+# Vérification
+cat("Nombre de lignes dans positive_cities :", nrow(positive_cities), "\n")
+cat("Nombre de villes uniques :", length(unique(positive_cities$city)), "\n")
+cat("Nombre de pays uniques :", length(unique(positive_cities$country_name)), "\n")
+cat("Villes sélectionnées :\n")
+print(unique(positive_cities$city))
+cat("Pays correspondants :\n")
+print(unique(positive_cities$country_name))
+
+# -----------------------
+# Étape 2 : Préparation des données pour ggplot
+# -----------------------
+
+# Conversion au format long
+positive_long <- positive_cities %>%
+  select(city, measure_year, NO2 = measureNO2μg_m3, PM10 = measurePM10μg_m3) %>%
+  pivot_longer(cols = c(NO2, PM10), 
+               names_to = "Pollutant", 
+               values_to = "Value")
+
+# -----------------------
+# Étape 3 : Visualisation de l’évolution moyenne par année
+# -----------------------
+
+ggplot(positive_long, aes(x = measure_year, y = Value, color = Pollutant)) +
+  stat_summary(fun = mean, geom = "line", size = 1.2) +
+  stat_summary(fun = mean, geom = "point", size = 2.5) +
+  labs(
+    title = "Évolution moyenne annuelle des concentrations de NO₂ et PM10 (μg/m3) en Suisse",
+    x = "Année",
+    y = "Concentration moyenne (μg/m3)",
+    color = "Polluant"
+  ) +
+  theme_minimal()
+
+
+
+# La Suisse
+
+# Filtrage
+
+# Sélectionner les villes de la Suisse
+villes_europe <- data[data$country_name == "Switzerland", ]
+
+#  Garder seulement les années 2016 à 2020
+villes_europe_periode <- villes_europe[villes_europe$measure_year >= 2016 & 
+                                         villes_europe$measure_year <= 2020, ]
+
+# Garder les lignes sans NA pour PM10 et NO2
+positive_cities <- villes_europe_periode[!is.na(villes_europe_periode$measure_PM10_μg_m3) & 
+                                           !is.na(villes_europe_periode$measure_NO2_μg_m3), ]
+
+# Vérifications
+cat("Nombre de lignes dans positive_cities :", nrow(positive_cities), "\n")
+cat("Nombre de villes uniques :", length(unique(positive_cities$city)), "\n")
+cat("Nombre de pays uniques :", length(unique(positive_cities$country_name)), "\n")
+cat("Villes sélectionnées :\n")
+print(unique(positive_cities$city))
+cat("Pays correspondants :\n")
+print(unique(positive_cities$country_name))
+
+
+#  Préparation des données pour ggplot 
+
+
+positive_long <- positive_cities %>%
+  select(city, measure_year, 
+         NO2 = measure_NO2_μg_m3, 
+         PM10 = measure_PM10_μg_m3) %>%
+  pivot_longer(cols = c(NO2, PM10),
+               names_to = "Pollutant",
+               values_to = "Value")
+
+
+#  Visualisation de l’évolution moyenne annuelle
+
+
+ggplot(positive_long, aes(x = measure_year, y = Value, color = Pollutant)) +
+  stat_summary(fun = mean, geom = "line", size = 1.2) +
+  stat_summary(fun = mean, geom = "point", size = 2.5) +
+  labs(
+    title = "Évolution moyenne annuelle des concentrations de NO₂ et PM10 (μg/m3) en Suisse",
+    x = "Année",
+    y = "Concentration moyenne (μg/m3)",
+    color = "Polluant"
+  ) +
+  theme_minimal()
