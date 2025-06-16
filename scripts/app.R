@@ -11,9 +11,17 @@ library(tidyr)
 library(ggplot2)
 library(rnaturalearth)
 library(sf)
+library(DT)
+
 
 # --- DONNÉES ---
 data <- read.csv("positive_cities_standardized.csv", stringsAsFactors = FALSE)
+data_monitoring <- read.csv("data_clean_monitoring.csv", stringsAsFactors = FALSE)
+sw_data <- read.csv("C:/Users/ndiay/Desktop/lptf/projets/IA/DATA_ANALYSIS/R_RSTUDIO/R_U_shiny/data_suisse.csv")
+# Filtrage des villes avec stations de monitoring
+
+# zone avec station de monitoring
+#positive_cities_stations <- positive_cities[!is.na(positive_cities$monitoring_station_number), ]
 
 # --- UI ---
 ui <- dashboardPage(
@@ -65,7 +73,37 @@ ui <- dashboardPage(
     fluidRow(
     box(width = 6, title = "Top 5 des villes les plus polluées", DTOutput("top_cities"), solidHeader = TRUE, status = "danger"),
     box(width = 6, title = "Top 5 des villes les moins polluées", DTOutput("low_cities"), solidHeader = TRUE, status = "success")
+   ),
+   
+   fluidRow(
+     box(title = "Pays avec stations de monitoring", width = 4, status = "info", solidHeader = TRUE,
+                     verbatimTextOutput("monitoring_countries")),
+     box(
+         title = "Répartition des types de stations de monitoring",
+         width = 8, solidHeader = TRUE, status = "primary",
+         plotlyOutput("monitor_type_plot", height = 300)
+       )
+     ),
+     
+   fluidRow(
+     box(title = "Répartition PM10 par type de station",width = 6,
+       plotlyOutput("pm10_pie_station"),
+       solidHeader = TRUE, status = "primary"),
+     box(title = "Répartition NO₂ par type de station",width = 6,
+         plotlyOutput("no2_pie_station"),
+         solidHeader = TRUE, status = "primary")
+     ),
+   
+   fluidRow(
+     box(
+       title = "Évolution annuelle des polluants en Suisse (par ville)",
+       width = 12,
+       solidHeader = TRUE,
+       status = "info",
+       plotlyOutput("switzerland_trend", height = 350)
+     )
    )
+   
    
    
    
@@ -270,6 +308,109 @@ server <- function(input, output, session) {
     
     ggplotly(p)
   })
+# pays avec stations de monitoring
+  output$monitoring_countries <- renderPrint({
+    sort(unique(data_monitoring$country_name))
+  })
+  #répartition par type des station de monotoring
+  
+  output$monitor_type_plot <- renderPlotly({
+    req(data_monitoring)
+    
+    type_counts <- data_monitoring %>%
+      group_by(type) %>%
+      summarise(n = n(), .groups = "drop") %>%
+      arrange(desc(n)) %>%
+      mutate(type = factor(type, levels = unique(type)))  # Tri des barres
+    
+    p <- ggplot(type_counts, aes(x = type, y = n)) +
+      geom_bar(stat = "identity", fill = "steelblue") +
+      labs(title = "Places of Monitor", x = "Monitor type", y = "Number of monitors") +
+      scale_y_continuous(breaks = seq(0, max(type_counts$n) + 10, by = 10)) +
+      theme_minimal(base_size = 14)
+    
+    ggplotly(p)
+  })
+ #Proportion des moyennes PM10 par type de station 
+  output$pm10_pie_station <- renderPlotly({
+    req(data_monitoring)
+    
+    pm10_moyennes <- data_monitoring %>%
+      group_by(type) %>%
+      summarise(moyenne_pm10 = mean(measure_PM10_μg_m3, na.rm = TRUE)) %>%
+      mutate(proportion = moyenne_pm10 / sum(moyenne_pm10) * 100)
+    
+    plot_ly(pm10_moyennes,
+            labels = ~type,
+            values = ~proportion,
+            type = "pie",
+            textinfo = "label+percent",
+            insidetextorientation = "radial",
+            marker = list(colors = RColorBrewer::brewer.pal(n = 8, name = "Blues"))) %>%
+      layout(title = "Proportion des moyennes PM10 par type de station")
+  })
+  
+  
+  #Proportion des moyennes NO2 par type de station
+  output$no2_pie_station <- renderPlotly({
+    req(data_monitoring)
+    
+    no2_moyennes <- data_monitoring %>%
+      filter(!is.na(type) & !is.na(measure_NO2_μg_m3)) %>%
+      group_by(type) %>%
+      summarise(moyenne_no2 = mean(measure_NO2_μg_m3, na.rm = TRUE), .groups = "drop") %>%
+      mutate(proportion = moyenne_no2 / sum(moyenne_no2) * 100)
+    
+    validate(
+      need(nrow(no2_moyennes) > 0, "Aucune donnée disponible.")
+    )
+    
+    plot_ly(
+      no2_moyennes,
+      labels = ~type,
+      values = ~proportion,
+      type = "pie",
+      textinfo = "label+percent",
+      insidetextorientation = "radial",
+      marker = list(colors = RColorBrewer::brewer.pal(n = 8, name = "Blues"))
+    ) %>%
+      layout(title = "Proportion des moyennes NO₂ par type de station")
+  })
+  
+  # Filtrage des données pour la Suisse (2016–2020) 
+  output$switzerland_trend <- renderPlotly({
+    sw_clean <- sw_data %>%
+      filter(measure_year >= 2016,
+             measure_year <= 2020,
+             !is.na(measure_PM10_μg_m3),
+             !is.na(measure_NO2_μg_m3))
+    
+    # Sélectionner les 9 villes avec le plus d'observations
+    top_cities <- sw_clean %>%
+      count(city, sort = TRUE) %>%
+      slice_head(n = 9) %>%
+      pull(city)
+    
+    sw_filtered <- sw_clean %>% filter(city %in% top_cities)
+    
+    sw_long <- sw_filtered %>%
+      select(city, measure_year,
+             NO2 = measure_NO2_μg_m3,
+             PM10 = measure_PM10_μg_m3) %>%
+      pivot_longer(cols = c(NO2, PM10), names_to = "Polluant", values_to = "Valeur")
+    
+    p <- ggplot(sw_long, aes(x = measure_year, y = Valeur, color = Polluant)) +
+      geom_line(aes(group = interaction(city, Polluant)), alpha = 0.6) +
+      geom_point(alpha = 0.6) +
+      facet_wrap(~city, scales = "free_y", ncol = 3) +
+      scale_color_manual(values = c("NO2" = "#66c2ff", "PM10" = "#0059b3")) +
+      labs(title = "Évolution PM10 / NO2 en Suisse – Top 9 villes",
+           x = "Année", y = "Concentration (µg/m³)") +
+      theme_minimal(base_size = 13)
+    
+    ggplotly(p)
+  })
+  
   
   
 }
