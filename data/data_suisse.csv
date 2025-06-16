@@ -1,0 +1,462 @@
+"region","Code_iso3","country_name","city","measure_year","measure_pm25_μg_m3","measure_PM10_μg_m3","measure_NO2_μg_m3","PM25_temporal_coverage","PM10_temporal_coverage","NO2_temporal_coverage","source","monitoring_station_number","database_version","status"
+"European Region","CHE","Switzerland","Aadorf",2016,NA,11.45,11.91,NA,NA,99.66985428,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Aadorf",2017,NA,11.32,11.3,NA,NA,99.50913242,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Aadorf",2018,NA,13.03,11.98,NA,NA,98.72146119,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Aadorf",2019,NA,10.93,11.11,NA,NA,99.56621005,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Aarau",2018,11.5,14.8,23.8,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Aarau",2019,9.8,13.2,22.2,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Aarau",2020,8.9,12.4,18.6,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Aigle",2017,NA,14.9,25,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Aigle",2018,NA,14.8,20.9,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Aigle",2019,8.3,13,20.1,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Aigle",2020,7.8,12.3,17.7,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Airolo",2017,NA,9,19,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Airolo",2018,6,9,19,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Airolo",2019,5.6,8.9,17.6,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Airolo",2020,5.4,8.8,15,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Altdorf",2016,NA,11.5,21.3,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Altdorf",2017,NA,12.8,20.5,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Altdorf",2018,NA,13.6,19.5,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Altdorf",2019,NA,11.9,18,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Altdorf",2020,NA,12.6,16.6,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Avully",2016,NA,14.1,12.91,NA,NA,99.87477231,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Avully",2016,NA,14.1,12.91,NA,NA,99.87477231,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Avully",2017,NA,13.91,12.62,NA,NA,98.71004566,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Avully",2017,NA,13.91,12.62,NA,NA,98.71004566,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Avully",2018,NA,14.58,11,NA,NA,99.15525114,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Avully",2018,NA,14.58,11,NA,NA,99.15525114,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Avully",2019,NA,13.8,10.81,NA,NA,99.7716895,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Avully",2019,NA,13.8,10.81,NA,NA,99.7716895,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Avully",2020,8.6,13,8.9,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Baden",2016,NA,15.5,21.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Baden",2017,10.9,13.4,22.2,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Baden",2018,12.2,15.3,19.9,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Baden",2019,11.4,15.1,20.3,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Baden",2020,10,13.3,17.5,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Basel",2016,10.1,17.21,31.86,NA,NA,99.98861566,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Basel",2016,10.1,17.21,31.86,NA,NA,99.98861566,"BAFU, European Environment Agency (downloaded in 2021)","2 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Basel",2017,11.47,16.69,32.28,NA,NA,98.73858448,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Basel",2017,11.47,16.69,32.28,NA,NA,98.73858448,"BAFU, European Environment Agency (downloaded in 2021)","2 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Basel",2018,13.4,17.9,32.25,NA,NA,99.28652968,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Basel",2018,13.4,17.9,32.25,NA,NA,99.28652968,"BAFU, European Environment Agency (downloaded in 2021)","2 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Basel",2019,11.3,15.38,30.67,NA,NA,98.49315069,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Basel",2019,11.3,15.38,30.67,NA,NA,98.49315069,"BAFU, European Environment Agency (downloaded in 2021)","2 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Basel",2020,10.2,15,23.7,NA,NA,NA,"BAFU","2 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Bern",2016,12.5,19.3,35.11,NA,NA,99.6129326,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Bern",2016,12.5,19.3,35.11,NA,NA,99.6129326,"BAFU, European Environment Agency (downloaded in 2021)","2 Traffic",2022,NA
+"European Region","CHE","Switzerland","Bern",2017,12.65,18.1,29.1,NA,NA,99.62899544,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Bern",2017,12.65,18.1,29.1,NA,NA,99.62899544,"BAFU, European Environment Agency (downloaded in 2021)","1 Background, 2 Traffic",2022,NA
+"European Region","CHE","Switzerland","Bern",2018,13.35,18.62,27.27,NA,NA,99.7716895,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Bern",2018,13.35,18.62,27.27,NA,NA,99.7716895,"BAFU, European Environment Agency (downloaded in 2021)","1 Background, 2 Traffic",2022,NA
+"European Region","CHE","Switzerland","Bern",2019,10.86,16.01,25.69,NA,NA,99.64611872,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Bern",2019,10.86,16.01,25.69,NA,NA,99.64611872,"BAFU, European Environment Agency (downloaded in 2021)","1 Background, 2 Traffic",2022,NA
+"European Region","CHE","Switzerland","Bern",2020,9.1,14.2,22.3,NA,NA,NA,"BAFU","1 Background, 2 Traffic",2022,NA
+"European Region","CHE","Switzerland","Beromünster",2017,NA,9.8,8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Beromünster",2018,NA,11.4,9.6,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Beromünster",2019,NA,9.7,7.9,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Beromünster",2020,NA,8.9,6.9,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Bevaix",2016,NA,13,16,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Biel/Bienne",2016,NA,14,20,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Biel/Bienne",2017,NA,14,21,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Biel/Bienne",2018,NA,14,19,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Biel/Bienne",2019,NA,13,17,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Biel/Bienne",2020,9.1,12.9,15.1,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Binningen",2016,NA,13.69,18.89,NA,NA,99.62431694,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Binningen",2017,9.82,13.53,18.8,NA,NA,98.96118721,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Binningen",2018,10.6,14.34,17.52,NA,NA,99.20091324,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Binningen",2019,8.93,12.56,16.71,NA,NA,99.56621005,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Bioggio",2016,NA,24,32,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Bioggio",2017,15,22,33,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Bioggio",2018,13,19,28,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Bioggio",2019,11.4,17.8,27,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Bioggio",2020,12.4,19,25,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Bodio",2016,NA,19,29,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Bodio",2017,NA,21,29,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Bodio",2018,11,19,26,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Bodio",2019,9.9,17.8,23.7,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Bodio",2020,9.9,18,21,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Brigerbad",2016,NA,15.1,20.8,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Brigerbad",2017,NA,16.1,21,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Brigerbad",2018,NA,12.4,17.4,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Brigerbad",2019,7.2,12,17.4,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Brigerbad",2020,8.4,13.4,18.2,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Brione",2016,NA,13,10,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Brione",2017,NA,14,10,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Brione",2018,10,14,9,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Brione",2019,8.4,12,7.3,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Brione",2020,8.1,11.7,6.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Bulle",2016,NA,13.2,30.1,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Bulle",2017,NA,13.1,27.5,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Bulle",2018,10.4,13,25.5,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Bulle",2019,8.6,12.6,23,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Bulle",2020,9,12.1,17.4,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Bussigny",2017,NA,15.5,34.5,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Bussigny",2019,NA,14.3,30,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Cadenazzo",2016,NA,16.17,18.07,NA,NA,99.62431694,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Cadenazzo",2017,13.06,18.46,19.94,NA,NA,99.49771689,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Cadenazzo",2018,11.56,16.02,15.98,NA,NA,99.61187215,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Cadenazzo",2019,9.89,14.53,15.21,NA,NA,98.88127854,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Camignolo",2016,NA,17,52,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Camignolo",2017,NA,20,54,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Camignolo",2018,NA,18,47,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Camignolo",2019,NA,15.1,43.2,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Camignolo",2020,NA,15.1,35,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Chaumont",2016,NA,6.4,5.4,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Chaumont",2017,NA,6.4,5.1,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Chaumont",2018,NA,7.5,5.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Chaumont",2019,NA,6.5,5,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Chaumont",2020,NA,6.7,3.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Chiasso",2016,NA,22,35,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Chiasso",2017,20,26,38,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Chiasso",2018,16,21,32,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Chiasso",2019,13.7,18.6,30.9,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Chiasso",2020,18,23.7,27,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Chur",2016,NA,12.65,23.6,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Chur",2017,NA,12.85,22.6,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Chur",2018,10,14.25,21.2,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Chur",2019,9,12.75,18.6,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Chur",2020,8.2,13.55,16.75,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Davos",2016,7.2,7.25,11.8,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Davos",2017,NA,6.8,11.55,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Davos",2018,NA,12.5,12.9,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Davos",2019,7.3,8.45,12.05,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Davos",2020,7.2,8.65,11.7,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Delémont",2016,NA,15.8,14.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Delémont",2017,NA,16,13.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Delémont",2018,NA,16,13.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Delémont",2019,NA,14.6,13.6,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Delémont",2020,NA,15.9,11.4,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Dornach",2016,NA,11.9,14.1,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Dornach",2017,NA,14,15,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Dornach",2018,NA,14,14,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Dornach",2019,10,12,13,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Dornach",2020,8,12,11,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Dubendorf",2016,NA,13.72,24.89,NA,NA,99.64708561,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Dubendorf",2017,9.6,13.78,24.72,NA,NA,99.56621005,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Dubendorf",2018,10.81,14.85,23.33,NA,NA,98.92694064,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Dubendorf",2019,9.04,12.72,21.61,NA,NA,99.69178082,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Dübendorf",2016,10.4,13.7,24.9,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Dübendorf",2017,9.5,13.8,24.7,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Dübendorf",2018,10.7,14.8,23.3,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Dübendorf",2019,9,12.7,21.6,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Dübendorf",2020,8.4,11.9,19.5,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Ebikon",2016,NA,14.6,20.58,NA,NA,99.98861566,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Ebikon",2016,NA,14.6,20.58,NA,NA,99.98861566,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Ebikon",2017,NA,14,19.8,NA,NA,99.57762557,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Ebikon",2017,NA,14,19.8,NA,NA,99.57762557,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Ebikon",2018,NA,15.38,18.31,NA,NA,99.89726027,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Ebikon",2018,NA,15.38,18.31,NA,NA,99.89726027,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Ebikon",2019,NA,13.82,17.5,NA,NA,99.02968037,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Ebikon",2019,NA,13.82,17.5,NA,NA,99.02968037,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Ebikon",2020,NA,12.8,16.2,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Egerkingen",2016,NA,16,28,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Egerkingen",2017,NA,16,27,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Egerkingen",2018,NA,17,27,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Egerkingen",2019,12,15,26,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Egerkingen",2020,9,13,24,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Eggerberg",2016,NA,10.5,9.1,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Eggerberg",2017,NA,10.8,9.3,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Eggerberg",2018,NA,9.9,8.3,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Eggerberg",2019,NA,8.9,8.1,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Eggerberg",2020,NA,9.7,7.9,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Erstfeld",2016,NA,12.1,29.4,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Erstfeld",2017,NA,12.3,28.6,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Erstfeld",2018,NA,12.9,24.9,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Erstfeld",2019,NA,10.4,24.5,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Erstfeld",2020,7,10.8,20.9,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Fribourg",2016,NA,14.45,25.85,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Fribourg",2017,NA,14.35,25.35,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Fribourg",2018,11.5,15.1,23.95,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Fribourg",2019,8.8,13.2,13.3,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Fribourg",2020,8.7,12.4,18.95,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Geneve",2017,NA,16.78,38.25,NA,NA,99.89726027,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Geneve",2018,NA,17.19,34.66,NA,NA,99.93150685,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Geneve",2019,NA,16.05,35.21,NA,NA,99.93150685,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Genève",2016,NA,17.8,39.3,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Genève",2017,NA,17.6,38.4,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Genève",2018,NA,17.7,34.9,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Genève",2019,11.6,17,35.4,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Genève",2020,11.2,16.3,30.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Giubiasco",2016,NA,18,24,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Giubiasco",2017,11,19,25,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Giubiasco",2018,10,17,21,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Giubiasco",2019,8.4,14.7,19.9,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Giubiasco",2020,9,16,19,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Glarus",2016,NA,12.7,14.6,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Glarus",2018,NA,13.5,14.1,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Glarus",2020,NA,8.1,11.7,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Grabs",2018,10.8,14.3,12.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Grabs",2019,8.6,11.8,12.2,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Härkingen",2016,11.3,15.1,37.7,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Härkingen",2017,10.6,15.6,38.4,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Härkingen",2018,11.2,15.9,33.7,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Härkingen",2019,9.7,14.3,31.8,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Härkingen",2020,8.5,13.1,26.7,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Horgen",2017,NA,12.6,15.9,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Horgen",2018,NA,13.4,18,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Ittigen",2016,NA,14.85,20.08,NA,NA,98.62249545,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Ittigen",2016,NA,14.85,20.08,NA,NA,98.62249545,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Ittigen",2017,NA,13.72,19.76,NA,NA,99.49771689,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Ittigen",2017,NA,13.72,19.76,NA,NA,99.49771689,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Jungfraujoch",2016,NA,1.7,0.2,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Jungfraujoch",2017,NA,2.7,0.2,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Jungfraujoch",2018,NA,2.6,0.2,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Jungfraujoch",2019,NA,2.5,0.2,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Jungfraujoch",2020,NA,2.2,0.2,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Kussnacht",2016,NA,6.21,5.67,NA,NA,99.53324226,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Kussnacht",2017,4.96,6.6,5.34,NA,NA,99.04109589,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Kussnacht",2018,6.45,8.47,6.14,NA,NA,99.23515982,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Kussnacht",2019,4.9,6.92,4.83,NA,NA,99.57762557,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","La Chaux",2016,NA,12,26,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","La Chaux",2017,NA,11.7,25.1,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","La Chaux",2018,NA,12.5,27.5,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","La Chaux",2019,7.8,10.6,22.6,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","La Chaux",2020,8,10,20,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Lausanne",2016,NA,16.7,41.52,NA,NA,99.65846995,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Lausanne",2016,NA,16.7,41.52,NA,NA,99.65846995,"BAFU, European Environment Agency (downloaded in 2021)","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Lausanne",2017,NA,16.42,40.61,NA,NA,99.66894977,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Lausanne",2017,NA,16.42,40.61,NA,NA,99.66894977,"BAFU, European Environment Agency (downloaded in 2021)","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Lausanne",2018,NA,13.52,25.25,NA,NA,98.77853882,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Lausanne",2018,NA,13.52,25.25,NA,NA,98.77853882,"BAFU, European Environment Agency (downloaded in 2021)","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Lausanne",2019,8.75,13.06,24.6,NA,NA,99.35502283,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Lausanne",2019,8.75,13.06,24.6,NA,NA,99.35502283,"BAFU, European Environment Agency (downloaded in 2021)","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Lausanne",2020,8.2,12.25,21.55,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Le Locle",2016,NA,12,20,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Le Locle",2017,NA,10,19.9,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Le Locle",2018,NA,11.2,19.6,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Le Locle",2019,NA,10.7,19.8,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Le Locle",2020,6,10,17,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Les Giettes",2016,NA,6.4,2.9,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Les Giettes",2017,NA,6.5,3.4,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Les Giettes",2018,NA,7.8,3.5,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Les Giettes",2019,NA,6.4,3.2,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Les Giettes",2020,NA,7.2,2.6,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Locarno",2016,NA,17,26,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Locarno",2017,NA,18,27,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Locarno",2018,13,17,23,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Locarno",2019,9.9,14,22.1,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Locarno",2020,10.5,16,20,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Lugano",2016,12.7,16.96,26.3,NA,NA,99.66985429,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Lugano",2016,12.7,16.96,26.3,NA,NA,99.66985429,"BAFU, European Environment Agency (downloaded in 2021)","2 Background",2022,NA
+"European Region","CHE","Switzerland","Lugano",2017,14.1,19.95,26.77,NA,NA,99.42922374,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Lugano",2017,14.1,19.95,26.77,NA,NA,99.42922374,"BAFU, European Environment Agency (downloaded in 2021)","2 Background",2022,NA
+"European Region","CHE","Switzerland","Lugano",2018,12.98,17.96,23.52,NA,NA,99.32077626,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Lugano",2018,12.98,17.96,23.52,NA,NA,99.32077626,"BAFU, European Environment Agency (downloaded in 2021)","2 Background",2022,NA
+"European Region","CHE","Switzerland","Lugano",2019,9.81,15.39,22.26,NA,NA,99.18949772,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Lugano",2019,9.81,15.39,22.26,NA,NA,99.18949772,"BAFU, European Environment Agency (downloaded in 2021)","2 Background",2022,NA
+"European Region","CHE","Switzerland","Lugano",2020,11.25,16.15,20,NA,NA,NA,"BAFU","2 Background",2022,NA
+"European Region","CHE","Switzerland","Luzern",2016,NA,20.2,40.7,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Luzern",2017,NA,18.68,41.21,NA,NA,99.98858447,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Luzern",2017,NA,18.68,41.21,NA,NA,99.98858447,"BAFU, European Environment Agency (downloaded in 2021)","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Luzern",2018,NA,19.11,37.42,NA,NA,99.98858447,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Luzern",2018,NA,19.11,37.42,NA,NA,99.98858447,"BAFU, European Environment Agency (downloaded in 2021)","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Luzern",2019,11.9,15.32,35.29,NA,NA,99.98858447,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Luzern",2019,11.9,15.32,35.29,NA,NA,99.98858447,"BAFU, European Environment Agency (downloaded in 2021)","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Luzern",2020,9.5,14.7,29.9,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Magadino",2016,12.1,16.2,18.1,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Magadino",2017,14.8,18.5,19.9,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Magadino",2018,11,16,16,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Magadino",2019,9.9,14.5,15.2,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Magadino",2020,10.5,15.1,15.1,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Massongex",2016,NA,14,15.2,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Massongex",2017,NA,14.9,16.4,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Massongex",2018,NA,13.9,15.1,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Massongex",2019,8.6,13.4,13.6,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Massongex",2020,8.2,13.3,12.6,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Mendrisio",2016,NA,24,39,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Mendrisio",2017,20,29,37,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Mendrisio",2018,17,24,33,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Mendrisio",2019,13.9,19.7,31.6,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Mendrisio",2020,15,21,26,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Mesocco",2017,NA,12.2,18,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Mesocco",2018,NA,12.9,18.2,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Mesocco",2019,NA,10.6,15.4,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Meyrin",2016,NA,15.05,18.76,NA,NA,99.86338798,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Meyrin",2016,NA,15.05,18.76,NA,NA,99.86338798,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Meyrin",2017,NA,15.73,18.37,NA,NA,99.89726027,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Meyrin",2017,NA,15.73,18.37,NA,NA,99.89726027,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Meyrin",2018,NA,15.69,16.37,NA,NA,99.32648402,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Meyrin",2018,NA,15.69,16.37,NA,NA,99.32648402,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Meyrin",2019,NA,14.64,15.36,NA,NA,99.88584475,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Meyrin",2019,NA,14.64,15.36,NA,NA,99.88584475,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Meyrin",2020,8.6,13.9,12.4,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Moleno",2016,NA,17,40,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Moleno",2017,NA,20,40,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Moleno",2018,NA,18,33,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Moleno",2019,NA,15,30.9,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Moleno",2020,NA,16.1,26,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Montana",2017,NA,8.4,11.2,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Montana",2018,NA,9.1,10.2,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Montana",2019,4.5,8.6,10.2,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Montana",2020,5.1,9.1,8.9,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Montreux",2016,NA,12.2,20.2,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Montreux",2018,NA,12,18,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Montreux",2020,NA,10.6,14.1,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Morges",2016,NA,17.7,25,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Morges",2017,NA,13.9,25.5,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Morges",2018,NA,15.2,22.5,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Morges",2019,9.3,13.8,21.4,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Morges",2020,8.6,12.1,18.4,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Muttenz",2016,NA,17.5,48.6,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Muttenz",2017,NA,17.5,47.8,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Muttenz",2018,NA,18.7,45.5,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Muttenz",2019,NA,17,41,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Muttenz",2020,10.1,16.3,35.4,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Neuchatel",2016,NA,6.44,5.42,NA,NA,98.87295082,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Neuchatel",2017,NA,6.38,5.06,NA,NA,98.25342466,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Neuchatel",2018,NA,7.48,5.79,NA,NA,99.38356164,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Neuchatel",2019,NA,6.51,4.98,NA,NA,98.71004566,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Neuchâtel",2016,NA,15,26,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Neuchâtel",2017,NA,14.6,27.5,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Neuchâtel",2018,NA,15.2,25.7,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Neuchâtel",2019,9.5,12.9,23.9,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Neuchâtel",2020,9,13,19,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Neuhausen",2017,NA,15.6,31,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Neuhausen",2019,NA,15,28.1,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Neuhausen",2020,NA,13.5,20.2,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Nyon",2016,NA,16,17.3,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Nyon",2017,NA,17,17.4,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Nyon",2018,NA,16.4,15.9,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Nyon",2019,8.2,12,15.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Nyon",2020,7.7,11.3,13.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Opfikon",2016,NA,16.02,40.2,NA,NA,98.52003643,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Opfikon",2016,NA,16.02,40.2,NA,NA,98.52003643,"BAFU, European Environment Agency (downloaded in 2021)","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Opfikon",2017,NA,16.98,38.05,NA,NA,98.69863014,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Opfikon",2017,NA,16.98,38.05,NA,NA,98.69863014,"BAFU, European Environment Agency (downloaded in 2021)","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Opfikon",2018,10.7,16.39,33.52,NA,NA,98.68721461,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Opfikon",2018,10.7,16.39,33.52,NA,NA,98.68721461,"BAFU, European Environment Agency (downloaded in 2021)","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Opfikon",2019,9.7,14.74,31.4,NA,NA,98.97260274,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Opfikon",2019,9.7,14.74,31.4,NA,NA,98.97260274,"BAFU, European Environment Agency (downloaded in 2021)","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Opfikon",2020,9.2,13.8,26.9,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Payerne",2016,8.1,11.59,13.51,NA,NA,98.75910747,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Payerne",2016,8.1,11.59,13.51,NA,NA,98.75910747,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Payerne",2017,8.43,11.8,12.72,NA,NA,99.48630137,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Payerne",2017,8.43,11.8,12.72,NA,NA,99.48630137,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Payerne",2018,9.44,13.11,12.2,NA,NA,98.59589041,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Payerne",2018,9.44,13.11,12.2,NA,NA,98.59589041,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Payerne",2019,7.78,11.38,11.58,NA,NA,99.36073059,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Payerne",2019,7.78,11.38,11.58,NA,NA,99.36073059,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Payerne",2020,6.8,10.1,10,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Porrentruy",2016,NA,13.3,13.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Porrentruy",2017,NA,13.9,13,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Porrentruy",2018,NA,14.9,12.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Rapperswil",2017,NA,13.8,22.2,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Rapperswil",2019,NA,12.5,20.9,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Reiden",2016,NA,15.3,30.4,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Reiden",2017,NA,15.5,29.7,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Reiden",2018,NA,16,26.1,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Reiden",2019,NA,14.7,25.4,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Reiden",2020,NA,13.5,19.7,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Rigi",2016,4.8,6.2,5.7,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Rigi",2017,4.7,6.6,5.3,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Rigi",2018,6.1,8.5,6.1,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Rigi",2019,4.9,6.9,4.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Rigi",2020,4.6,6.9,4,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Rothenbrunnen",2016,NA,11.5,19.8,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Rothenbrunnen",2017,NA,10.9,24.5,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Rothenbrunnen",2018,NA,12.8,22.6,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Rothenbrunnen",2019,NA,10.7,21.6,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Rothenbrunnen",2020,NA,10.4,18,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","San Vittore",2016,NA,21.6,15.5,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","San Vittore",2017,NA,22.1,17,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","San Vittore",2018,NA,20,14.6,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","San Vittore",2019,13.8,18.4,13.5,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","San Vittore",2020,15.3,19.4,12.8,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Saxon",2016,NA,13.71,16.51,NA,NA,99.53324226,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Saxon",2016,NA,13.71,16.51,NA,NA,99.53324226,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Saxon",2017,NA,15.28,18.21,NA,NA,99.61187215,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Saxon",2017,NA,15.28,18.21,NA,NA,99.61187215,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Saxon",2018,NA,13.19,15.7,NA,NA,99.65753425,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Saxon",2018,NA,13.19,15.7,NA,NA,99.65753425,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Saxon",2019,8,11.99,14.51,NA,NA,99.79452055,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Saxon",2019,8,11.99,14.51,NA,NA,99.79452055,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Saxon",2020,8.6,12.6,13.6,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Schlieren",2018,10.5,15.4,22.2,NA,NA,NA,"BAFU","1 Industrial",2022,NA
+"European Region","CHE","Switzerland","Schupfart",2018,11.5,15.6,10.3,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Schupfart",2019,9.5,13.9,8.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Schupfart",2020,8.9,14,7.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Schwyz",2016,NA,14.3,18.1,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Schwyz",2017,NA,15.5,17.5,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Schwyz",2018,NA,15,16.6,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Schwyz",2019,8.5,13.9,16.5,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Schwyz",2020,8.4,11.9,15.4,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Sion",2016,NA,15.05,28.15,NA,NA,NA,"BAFU","2 Traffic",2022,NA
+"European Region","CHE","Switzerland","Sion",2017,NA,15.45,28.55,NA,NA,NA,"BAFU","2 Traffic",2022,NA
+"European Region","CHE","Switzerland","Sion",2018,NA,14.75,26.45,NA,NA,NA,"BAFU","2 Traffic",2022,NA
+"European Region","CHE","Switzerland","Sion",2019,7.9,14.05,25.1,NA,NA,NA,"BAFU","2 Traffic",2022,NA
+"European Region","CHE","Switzerland","Sion",2020,8.4,14.1,22.7,NA,NA,NA,"BAFU","2 Traffic",2022,NA
+"European Region","CHE","Switzerland","Sissach",2016,NA,16.7,29,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Sissach",2017,NA,16.3,26.9,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Sissach",2018,NA,14.5,14.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Sissach",2019,9,14,15,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Sissach",2020,8.8,13.4,13.7,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Sisseln",2016,NA,16.9,18.7,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Sisseln",2017,10.9,15.5,19.3,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Solothurn",2016,10,14.5,21,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Solothurn",2017,10,15,21.5,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Solothurn",2018,11,15,19.5,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Solothurn",2019,9,13,19,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Solothurn",2020,9,12.5,16.5,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","St Gallen",2016,NA,11.45,21.25,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","St Gallen",2017,10.2,11.7,20.8,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","St Gallen",2018,10.4,12.55,20.05,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","St Gallen",2019,8.6,10.65,19.8,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","St Gallen",2020,7.35,10.9,17.4,NA,NA,NA,"BAFU","1 Background, 1 Traffic",2022,NA
+"European Region","CHE","Switzerland","St. Gallen",2016,NA,8.38,6.12,NA,NA,98.01912568,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","St. Gallen",2017,NA,11.7,20.82,NA,NA,98.78995434,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","St. Gallen",2018,NA,12.53,20.04,NA,NA,98.48744292,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","St. Gallen",2019,NA,10.61,19.86,NA,NA,98.25342466,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Suhr",2016,NA,15.4,29.8,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Suhr",2017,10.6,14.7,27,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Sursee",2017,NA,9.74,7.96,NA,NA,99.62328767,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Sursee",2018,NA,11.39,9.59,NA,NA,99.28082192,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Sursee",2019,NA,9.75,7.92,NA,NA,99.10958904,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Tänikon",2016,NA,11.4,11.9,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Tänikon",2017,NA,11.3,11.3,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Tänikon",2018,NA,13,12,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Tänikon",2019,7.8,10.9,11.1,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Tänikon",2020,7.1,9.9,9.9,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Thonex",2016,NA,16.19,21.63,NA,NA,99.95446266,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Thonex",2017,NA,16.3,22.2,NA,NA,99.89726027,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Thonex",2018,NA,16.7,18.69,NA,NA,99.82876712,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Thonex",2019,NA,15.75,17.28,NA,NA,99.96575342,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Thônex",2016,NA,16.2,21.7,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Thônex",2017,NA,16.2,22.3,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Thônex",2018,NA,16.2,18.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Thônex",2019,NA,15.5,17.4,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Thônex",2020,9.7,15,15.5,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Thun",2016,NA,13,20.5,NA,NA,NA,"BAFU","2 Background",2022,NA
+"European Region","CHE","Switzerland","Thun",2017,NA,13,21.5,NA,NA,NA,"BAFU","2 Background",2022,NA
+"European Region","CHE","Switzerland","Thun",2018,NA,13,20,NA,NA,NA,"BAFU","2 Background",2022,NA
+"European Region","CHE","Switzerland","Thun",2019,NA,12,18,NA,NA,NA,"BAFU","2 Background",2022,NA
+"European Region","CHE","Switzerland","Thun",2020,NA,12.4,16.25,NA,NA,NA,"BAFU","2 Background",2022,NA
+"European Region","CHE","Switzerland","Weinfelden",2016,NA,15,19.7,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Weinfelden",2018,NA,15.5,16.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Weinfelden",2020,NA,12.9,13.7,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Winterthur",2016,NA,13.5,18.8,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Winterthur",2017,NA,13.72,17.92,NA,NA,97.6826484,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Winterthur",2017,NA,13.72,17.92,NA,NA,97.6826484,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Winterthur",2018,NA,15.09,16.11,NA,NA,99.61187215,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Winterthur",2018,NA,15.09,16.11,NA,NA,99.61187215,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Winterthur",2019,NA,12.43,15.1,NA,NA,98.90410959,"BAFU, European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Winterthur",2019,NA,12.43,15.1,NA,NA,98.90410959,"BAFU, European Environment Agency (downloaded in 2021)","1 Background",2022,NA
+"European Region","CHE","Switzerland","Winterthur",2020,8.8,11.3,14.3,NA,NA,NA,"BAFU","2 Background",2022,NA
+"European Region","CHE","Switzerland","Yverdon",2016,NA,14.7,19.2,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Yverdon",2017,NA,17.6,19.6,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Yverdon",2018,NA,15.6,17.6,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Yverdon",2019,9.1,12.7,16.6,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Yverdon",2020,8.6,12.1,15,NA,NA,NA,"BAFU","1 Background",2022,NA
+"European Region","CHE","Switzerland","Zug",2016,NA,15.4,28.8,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Zug",2017,NA,14,27.3,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Zug",2018,NA,16.7,25.2,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Zug",2019,NA,15.8,24.1,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Zug",2020,NA,12.5,22,NA,NA,NA,"BAFU","1 Traffic",2022,NA
+"European Region","CHE","Switzerland","Zurich",2016,10.08,16.1,33.89,NA,NA,99.50288403,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Zurich",2017,10.44,16.47,32.09,NA,NA,98.80365297,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Zurich",2018,11.36,17.58,30.18,NA,NA,98.9543379,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Zurich",2019,9.52,15.19,28.53,NA,NA,99.30136986,"European Environment Agency (downloaded in 2021)",NA,2022,NA
+"European Region","CHE","Switzerland","Zürich",2016,10.9,15.6,32.8,NA,NA,NA,"BAFU","2 Background, 3 Traffic",2022,NA
+"European Region","CHE","Switzerland","Zürich",2017,10.63,15.78,32.06,NA,NA,NA,"BAFU","2 Background, 3 Traffic",2022,NA
+"European Region","CHE","Switzerland","Zürich",2018,12.32,16.74,30.16,NA,NA,NA,"BAFU","2 Background, 3 Traffic",2022,NA
+"European Region","CHE","Switzerland","Zürich",2019,10.32,14.38,28.52,NA,NA,NA,"BAFU","2 Background, 3 Traffic",2022,NA
+"European Region","CHE","Switzerland","Zürich",2020,9.85,13.3,23.78,NA,NA,NA,"BAFU","2 Background, 3 Traffic",2022,NA
